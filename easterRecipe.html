@@ -17,7 +17,12 @@
 </head>
 
 <body style="background-color: #ECFDF1;">
-    <audio src="./media/easter.wav" autoplay></audio>
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
 
     <div class="header" style="background-color: #ECFDF1;" id="easter">
         <a href="./index.html" class="logo">Pierre Marcolini</a>
@@ -45,7 +50,15 @@
         </div>
     </div>
 
-    <h1 style="color: #5E376D; text-align: center; margin-top: 100px;">Kook Kawaii Kookie!</h1>
+    <div class="play">
+        <div class="time">
+            <h1 style="color: #5E376D; text-align: center; margin-top: 100px;">Kook Kawaii Kookie! <button class="btn" value="PLAY" onclick="play()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="28" height="28"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#ecfdf1"></path><g fill="#5e376d"><path d="M34.4,18.06v135.86656l115.48188,-67.92656z"></path></g></g></svg></button></h1>
+        </div>
+        <audio id="audio" src="./media/easter.wav"></audio>
+    </div>
 
     <div class="tree" style="align-content: center;">
         <a href="https://www.instagram.com/p/B-TnxS6HBqc/"><img src="./images/easterChoc.jpeg"></a>
