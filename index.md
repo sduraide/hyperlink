@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>Pierre Marcolini</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <a href="./index.html"><video src="./cover.mov" autoplay controls muted loop></video></a>
+    </div>
+
+    <div>
+        <p>blah blah blah</p>
+    </div>
+
+</body>
+
+</html>
